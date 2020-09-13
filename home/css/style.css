@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: none;
+}
+body {
+    background-color: lightcyan;
+}
+.main {
+    height: 500px;
+    width: auto;
+    background-image: url(../../assets/element-background.jpg);
+    background-size: 1400px;
+    background-position: center;
+    border-bottom: 3px solid black;
+}
+.header-title {
+    text-align: center;
+    line-height: 300px;
+    font-size: 50px;
+    font-family: "Playfair Display";
+    font-weight: 100;
+    text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, /*this is how you make a text border*/
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000; 
+    color: floralwhite;
+}
+.txt-header-desc {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", 'Times New Roman';
+    color: floralwhite;
+    font-size: 18px;
+    text-shadow: black 10px 5px 10px, black 10px -5px 10px, black -1px 0px 5px, black 5px 0px 5px /*depois da vírgula é outra sombra*/
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.nav-li {
+    list-style: none;
+}
+.nav-link {
+    color: floralwhite;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: "Kufam", 'Times New Roman';
+    letter-spacing: 0.7px;
+    transition: 0.5s;
+}
+.nav-link:hover {
+    color: lightseagreen;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.header-main {
+    height: 100px;
+    background-color: #0d0d0d;
+    position: sticky;
+    top: 0px;
+}
+.desc-sentence {
+    font-size: 80px;
+    margin: 250px 150px 250px 50px; /*top right bottom left*/
+    margin-bottom: 0px;
+    font-family: "Syne";
+}
+.desc-little-sentence {
+    color: #000;
+    font-family: "Syne";
+    font-size: 25px;
+    margin-left: 100px;
+}
+.seta-down-area {
+    display: flex;
+    justify-content: center;
+    width: 10px;
+    margin: auto;
+}
+.image-seta {
+    width: 100px;
+    user-select: none;
+}
+.image-left-down {
+    height: 400px;
+    margin-top: 210px;
+    border: 5px solid #0d0d0d;
+}
+.hr {
+    width: 520px;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: black;
+}
+.image-no-clothes {
+    width: 400px;
+    border: 5px solid #0d0d0d;
+}
+.down-more-area-text {
+    margin-left: 500px;
+}
+.image-no-clothes-area {
+    margin: 100px 150px;
+}
