@@ -12,7 +12,7 @@ body {
 .main {
     height: 500px;
     width: auto;
-    background-image: url(../../assets/element-background.jpg);
+    background-image: url(../../../assets/element-background.jpg);
     background-size: 1400px;
     background-position: center;
     border-bottom: 3px solid black;
