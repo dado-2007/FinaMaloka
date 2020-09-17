@@ -4,14 +4,22 @@
         <meta charset="utf-8">
         <title>Account</title>
         <link rel="stylesheet" href="../../account/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
     </head>
     <body>
-        <form class="login-form">
-            <label for="user-name-input">Username:</label>
-            <input type="text" class="user-name-input">
-            <br>
-            <label for="email-input">           
-            <input type="email" class="email-input">
-        </form>
+        <div class="container">
+            <div class="div-login-form">
+                <form class="login-form" onsubmit="consistForm()" method="GET">
+                    <h4>Username:</h4>
+                    <input type="text" class="user-name-input text-field" placeholder="username_123">
+                    <br>
+                    <h4>Email:</h4>
+                    <input type="email" class="email-input text-field" placeholder="example.you@gmail.com">
+                    <br>
+                    <input type="submit" class="submit">
+                </form>
+            </div>
+        </div>
+        <script src="../javascript/script.js"></script>
     </body>
 </html>

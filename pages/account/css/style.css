@@ -4,5 +4,47 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(90DEG, #b77c2a, #f0a747);
+    background: linear-gradient(270DEG, #fcc885, lightcyan);
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.login-form {
+    height: fit-content;
+    display: inherit;
+    flex-direction: column;
+}
+h4 {
+    font-family: 'Kufam', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+.text-field {
+    width: 500px;
+    margin: 10px;
+    padding: 7px 5px 5px 5px;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    font-family: "Kufam";
+}
+.div-login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.submit {
+    text-align: end;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 15px;
+    position: relative;
+    left: 31%;
 }
