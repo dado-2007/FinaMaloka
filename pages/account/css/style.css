@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
 * {
     padding: 0px;
     margin: 0px;
@@ -36,15 +37,24 @@ h4 {
     margin-bottom: 80px;
 }
 .submit {
-    text-align: end;
+    border: 2px solid lightgrey;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 35px;
-    margin-top: 10px;
+    margin-top: 30px;
     border-radius: 15px;
     position: relative;
     left: 31%;
+    font-family: 'Kumbh sans';
+    font-weight: 500;
+    padding: 5px;
+}
+.submit:focus {
+    background-color: azure;
+}
+.submit:hover {
+    border-color: greenyellow;
 }

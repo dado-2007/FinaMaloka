@@ -1,13 +1,22 @@
-// const button = document.querySelector('.submit')
+const submit_input = document.querySelector('.submit')
 
-
-function consistForm() {
-    var form = document.forms[0]
-    var selectedElement = form.querySelector('.text-field')   
-    var selectedValue = selectedElement.value
-    alert(selectedValue)
+if(document.activeElement === submit_input) {
+    submit_input.style.border = "none"
 }
 
-// document.addEventListener("submit", (e) => {
-//     e.preventDefault()
-// })
+function throwInputError() {
+    alert("Please type your first name.")
+}
+
+userNames = []
+
+function consistForm0() {
+    var form = document.forms[0]
+    var textField0 = form.querySelector('.user-name-input')
+    var textFromField0 = textField0.value
+    if(textFromField0.trim() != "") {
+        userNames.push(textFromField0)
+    } else {
+        throwInputError()
+    }
+}
