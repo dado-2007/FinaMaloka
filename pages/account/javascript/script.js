@@ -8,7 +8,7 @@ function throwInputError() {
     alert("Please type your first name.")
 }
 
-userNames = []
+var userNames = []
 
 function consistForm0() {
     var form = document.forms[0]
